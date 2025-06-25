@@ -1,0 +1,40 @@
+  body {
+      margin: 0;
+      padding: 0;
+      background-color: #1a1a1a;
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      color: #fff;
+    }
+
+    .error-box {
+      background-color: #2c2c2c;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(255, 0, 0, 0.3);
+      text-align: center;
+    }
+
+    .error-box h1 {
+      font-size: 48px;
+      color: #ff4d4d;
+      margin-bottom: 20px;
+    }
+
+    .error-box a {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #ff4d4d;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    .error-box a:hover {
+      background-color: #cc0000;}
