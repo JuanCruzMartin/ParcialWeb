@@ -1,0 +1,49 @@
+.fragancias-similares {
+    padding: 80px 20px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.fragancias-similares h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.fragancias-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.fragancia-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.fragancia-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.fragancia-card h3 {
+    margin-bottom: 10px;
+    font-size: 22px;
+    color: #000;
+}
+
+.fragancia-card p {
+    font-size: 16px;
+    color: #555;
+}
+
+.fragancia-card:hover {
+    transform: translateY(-10px);
+}

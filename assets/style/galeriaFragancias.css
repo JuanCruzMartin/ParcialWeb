@@ -1,0 +1,31 @@
+.galeria {
+    text-align: center;
+    padding: 80px 0;
+    background-color: #b26115;
+  }
+  
+  .galeria h2 {
+    margin-bottom: 40px;
+    font-size: 36px;
+    color: #000000;
+  }
+  
+  .contenedor-fotos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; 
+  }
+  
+  .contenedor-fotos img {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .contenedor-fotos img:hover {
+    transform: scale(1.05);
+  }

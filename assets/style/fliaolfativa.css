@@ -1,0 +1,34 @@
+.familia-olfativa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background-color: #ffffff; 
+}
+
+.texto-familia {
+    flex: 1;
+    padding: 20px;
+}
+
+.imagen-familia {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.imagen-familia img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+section {
+    padding: 80px 0;
+  }
+
+.tituloFO{
+    color: rgb(0, 0, 0);
+}
+.descripcionFO{
+    color: rgb(0, 0, 0);
+}

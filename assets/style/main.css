@@ -1,0 +1,79 @@
+.hero {
+    background-image: url('../img/Stronger-with-you-nicolas-galitzine-03012025.webp');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+   
+  }
+  .hero-content {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4); /* fondo semitransparente */
+    padding: 30px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+  }
+  .hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+  .hero-content p {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .btn {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: white;
+    color: black;
+  }
+  
+
+footer {
+  background-color: #111; /* Fondo oscuro elegante */
+  color: #f1f1f1; /* Texto claro */
+  padding: 40px 20px;
+  text-align: center;
+  font-family: 'Prata', serif;
+  margin-top: 50px;
+  border-top: 2px solid #555;
+}
+
+.footer-img {
+  background-color: #f1f1f1;
+  width: 60px;
+  margin-bottom: 15px;
+  filter: brightness(1.2);
+}
+
+.footer-texto {
+  font-size: 1.1rem;
+  margin-bottom: 25px;
+  line-height: 1.5;
+}
+
+.iconos-redes-sociales {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+
+.iconos-redes-sociales a:hover {
+  transform: scale(1.2);
+  color: #c7a17a; /* Color dorado para hover elegante */
+}
