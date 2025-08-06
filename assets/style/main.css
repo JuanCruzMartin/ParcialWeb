@@ -12,7 +12,7 @@
   }
   .hero-content {
     color: white;
-    background-color: rgba(0, 0, 0, 0.4); /* fondo semitransparente */
+    background-color: rgba(0, 0, 0, 0.4); 
     padding: 30px;
     border-radius: 10px;
     transition: background-color 0.3s ease;
@@ -42,8 +42,8 @@
   
 
 footer {
-  background-color: #111; /* Fondo oscuro elegante */
-  color: #f1f1f1; /* Texto claro */
+  background-color: #111; 
+  color: #f1f1f1;
   padding: 40px 20px;
   text-align: center;
   font-family: 'Prata', serif;
@@ -75,7 +75,7 @@ footer {
 
 .iconos-redes-sociales a:hover {
   transform: scale(1.2);
-  color: #c7a17a; /* Color dorado para hover elegante */
+  color: #c7a17a; 
 }
 
 @media (max-width: 768px) {
