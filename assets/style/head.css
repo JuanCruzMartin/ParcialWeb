@@ -63,6 +63,16 @@ header:hover a {
     transition: 2s;
 }
 
+.nav-toggle {
+  display: none;
+}
+
+.nav-icon {
+  display: none;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+}
 @media (max-width: 768px) {
   .nav ul {
     display: flex;
@@ -94,6 +104,128 @@ header:hover a {
   }
 
   /* Muestra el menú si está activo */
+  .nav-toggle:checked + .nav-icon + .nav-menu {
+    display: flex;
+  }
+
+  .nav-menu li {
+    margin: 10px 0;
+    text-align: center;
+  }
+}
+
+
+/*media querys celular*/
+@media (max-width: 768px) {
+  .nav-icon {
+    display: block;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+  }
+
+  .nav-menu {
+    display: none;
+    flex-direction: column;
+    background: black;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 200px;
+    padding: 10px 0;
+  }
+
+  .nav-toggle:checked + .nav-icon + .nav-menu {
+    display: flex;
+  }
+
+  .nav-menu li {
+    margin: 10px 0;
+    text-align: center;
+  }
+}
+/*mediaquerys tablet */
+@media (min-width: 481px) {
+  body {
+    font-size: 1rem;
+    padding: 1rem;
+  }
+}
+
+/* Tablets grandes o laptops pequeñas */
+@media (min-width: 769px) {
+  .nav-menu {
+    display: flex;
+    flex-direction: row;
+  }}
+
+  .nav-toggle {
+  display: none;
+}
+
+.nav-icon {
+  display: none;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 30px;
+}
+
+/* --------- Responsive hasta 768px --------- */
+@media (max-width: 768px) {
+  .nav-icon {
+    display: block;
+  }
+
+  .nav-menu {
+    display: none;
+    flex-direction: column;
+    background: black;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 200px;
+    padding: 10px 0;
+  }
+
+  /* Mostrar menú si está activo */
+  .nav-toggle:checked + .nav-icon + .nav-menu {
+    display: flex;
+  }
+
+  .nav-menu li {
+    margin: 10px 0;
+    text-align: center;
+  }
+}
+
+/* --------- Restaurar menú desktop en tablet grande --------- */
+@media (min-width: 769px) {
+  .nav-menu {
+    display: flex;
+    flex-direction: row;
+  }
+}
+@media (max-width: 768px) {
+  .nav-icon {
+    display: block;
+  }
+
+  .nav-menu {
+    display: none;
+    flex-direction: column;
+    background-color: black;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 200px;
+    padding: 10px 0;
+  }
+
   .nav-toggle:checked + .nav-icon + .nav-menu {
     display: flex;
   }
