@@ -29,3 +29,15 @@
   .contenedor-fotos img:hover {
     transform: scale(1.05);
   }
+
+  @media (max-width: 768px) {
+  .contenedor-fotos img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+  .fragancia-card {
+    width: 100%;
+    max-width: 250px;
+  }
+}

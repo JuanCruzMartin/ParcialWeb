@@ -77,3 +77,15 @@ footer {
   transform: scale(1.2);
   color: #c7a17a; /* Color dorado para hover elegante */
 }
+
+@media (max-width: 768px) {
+  .hero {
+    height: 50vh;
+  }
+  .hero-content h1 {
+    font-size: 6vw;
+  }
+  .hero-content p {
+    font-size: 3vw;
+  }
+}

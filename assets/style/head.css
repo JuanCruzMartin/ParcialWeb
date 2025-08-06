@@ -62,3 +62,44 @@ header:hover a {
     color: black;
     transition: 2s;
 }
+
+@media (max-width: 768px) {
+  .nav ul {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    padding: 10px;
+  }
+  .nav ul li {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 768px) {
+  /* Muestra el ícono hamburguesa */
+  .nav-icon {
+    display: block;
+  }
+
+  /* Oculta el menú inicialmente */
+  .nav-menu {
+    display: none;
+    flex-direction: column;
+    gap: 0;
+    background: black;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 200px;
+    padding: 10px 0;
+  }
+
+  /* Muestra el menú si está activo */
+  .nav-toggle:checked + .nav-icon + .nav-menu {
+    display: flex;
+  }
+
+  .nav-menu li {
+    margin: 10px 0;
+    text-align: center;
+  }
+}
